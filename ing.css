@@ -1,0 +1,34 @@
+
+*{
+   
+}
+
+.mp{
+    display: flex;
+    width: 600px;
+    height: 430px;
+   margin-left: 25%;
+   margin-top: 5%;
+    
+  
+    
+}
+
+
+.mp .mp1{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+   
+}
+
+.mp .mp1:hover{
+   
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+}

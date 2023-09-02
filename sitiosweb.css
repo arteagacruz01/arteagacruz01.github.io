@@ -1,0 +1,248 @@
+.b {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+    margin-top: 0px;
+
+}
+
+.card3:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /*background-color: rgba(255,255,255,0.1);*/
+    backdrop-filter: blur(0.1px);
+    height: 100%;
+}
+
+.card3 {
+    position: relative;
+    width: 100%;
+    height: 550px;
+
+
+}
+
+.card3 .face3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.card3 .front3 {
+
+    box-shadow: 0 5px 10px #000;
+}
+
+.card3 .front3 .mexico {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.slider__content3 {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    color: white;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    text-align: center;
+    z-index: 2;
+}
+
+.slider__img3 {
+
+    display: block;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+
+}
+
+.mexico {
+    width: 100%;
+
+
+}
+
+.titulo {
+    font-size: 100px;
+    margin-left: 50%;
+}
+
+.ti {
+    color: yellow;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 4ch;
+
+    animation: typing 1s steps(4), blink 1s infinite step-end;
+    overflow: hidden;
+}
+
+.mov {
+    color: yellow;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 5ch;
+
+    animation: typing 1s steps(5), blink 1s infinite step-end;
+    overflow: hidden;
+}
+
+.artif {
+    color: yellow;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 10ch;
+
+    animation: typing 1s steps(10), blink 1s infinite step-end;
+    overflow: hidden;
+}
+
+.mante {
+    color: yellow;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 8ch;
+
+    animation: typing 1s steps(8), blink 1s infinite step-end;
+    overflow: hidden;
+}
+
+.security {
+    color: yellow;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 10ch;
+
+    animation: typing 1s steps(10), blink 1s infinite step-end;
+    overflow: hidden;
+}
+
+.datascien {
+    color: yellow;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 7ch;
+
+    animation: typing 1s steps(7), blink 1s infinite step-end;
+    overflow: hidden;
+}
+
+.bisne {
+    color: yellow;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 8ch;
+
+    animation: typing 1.5s steps(8), blink 1s infinite step-end;
+    overflow: hidden;
+}
+
+.comida {
+    color: yellow;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 7ch;
+
+    animation: typing 1s steps(7), blink 1s infinite step-end;
+    overflow: hidden;
+}
+
+.company {
+    color: yellow;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 9ch;
+
+    animation: typing 1s steps(9), blink 1s infinite step-end;
+    overflow: hidden;
+}
+
+
+
+.industrial {
+    color: yellow;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 8ch;
+
+    animation: typing 1s steps(8), blink 1s infinite step-end;
+    overflow: hidden;
+}
+
+
+.pventa {
+    color: yellow;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 5ch;
+
+    animation: typing 1s steps(5), blink 1s infinite step-end;
+    overflow: hidden;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+
+    .card3 {
+
+        height: 250px;
+
+
+    }
+
+    .titulo {
+        font-size: 40px;
+        margin-left: 50%;
+    }
+
+}
